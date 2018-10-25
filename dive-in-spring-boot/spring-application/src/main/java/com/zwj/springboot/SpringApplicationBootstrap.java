@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * 引导类
+ * 引导类 不一定是主类 @SpringBootApplication注册Bean  ApplicationConfiguration
  */
 
 public class SpringApplicationBootstrap {

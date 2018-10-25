@@ -1,0 +1,14 @@
+#ApplicationContextInitializer 实现配置
+org.springframework.context.ApplicationContextInitializer=\
+com.zwj.springboot.context.AfterApplicationContextInitializer,\
+com.zwj.springboot.context.HelloWorldApplicationContextInitializer
+
+#ApplicationListener 实现配置
+org.springframework.context.ApplicationListener=\
+com.zwj.springboot.listener.AfterHelloWorldApplicationListener,\
+com.zwj.springboot.listener.HelloWorldApplicationListener,\
+com.zwj.springboot.listener.BeforeConfigFileApplicationListener
+
+#SpringApplicationRunListener 实现配置
+org.springframework.boot.SpringApplicationRunListener=\
+com.zwj.springboot.run.HelloWorldRunListener
