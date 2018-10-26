@@ -8,7 +8,7 @@ import org.springframework.core.Ordered;
 import org.springframework.core.env.Environment;
 
 /**
- * Before ConfigFileApplicationListener 实现
+ * Before 在ConfigFileApplicationListener 实现
  * Ordered.HIGHEST_PRECEDENCE+9
  */
 public class BeforeConfigFileApplicationListener implements SmartApplicationListener,Ordered {
